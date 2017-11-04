@@ -1,0 +1,15 @@
+<div class="clearfix">
+  <h1 class="float-left">{{ page.title }}</h1>
+  <span class="badge compatability-badge float-left {% if page.bs-compatable == false %}disabled{% endif %}">
+    <span class="badge-check">
+      <img src="/img/icons/{% if page.bs-compatable == true %}check{% else %}x{% endif %}.svg" />
+    </span>
+    Bootstrap Compatible
+  </span>
+  <span class="badge compatability-badge float-left {% if page.color-classes == false %}disabled{%endif%}">
+    <span class="badge-check">
+      <img src="/img/icons/{% if page.color-classes == true %}check{% else %}x{% endif %}.svg" />
+    </span>
+    Themeable
+  </span>
+</div>

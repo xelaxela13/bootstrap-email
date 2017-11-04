@@ -1,5 +1,6 @@
 html, body{
   font-family: 'Open Sans', sans-serif;
+  font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
   font-size: 16px;
 }
 
@@ -27,6 +28,7 @@ aside{
     li{
       list-style: none;
       font-size: 1rem;
+      margin: 0.25rem 0;
       &:hover,
       &.active{
         background-color: white;
@@ -47,9 +49,10 @@ aside{
 
 }
 
-.card{
-  box-shadow: 2px 3px 0px #dadada;
+.card-docs{
+  box-shadow: 2px 3px 0px #f1f1f1;
   border-color: #f1f1f1;
+  border-radius: 10px;
 }
 
 .device-container{
@@ -91,10 +94,12 @@ aside{
   margin-bottom: 0.6rem;
 }
 
+small{
+  font-size: 0.75rem;
+}
+
 pre{
-  background: #f7f7f9 !important;
-  margin: 0 !important;
-  border: 0 !important;
+  padding: 1rem;
 }
 
 .social-buttons{
@@ -106,4 +111,36 @@ pre{
 footer{
   padding: 20px 0;
   border-top: 1px solid #f7f7f9;
+}
+
+.compatability-badge{
+  border: 1px solid #dae4e9;
+  background-color: #fafcfc;
+  padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  margin: 1rem 0 0 1rem;
+  display: block;
+  .badge-check{
+    background-color: #51d88a;
+    border-radius: 9999px;
+    margin-right: 0.25rem;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    img{
+      color: white;
+    }
+  }
+  &.disabled{
+    opacity: .5;
+    .badge-check{
+      background-color: #9babb4;
+    }
+  }
+}
+
+.highlight{
+  background-color: #f8f9fa;
+  border-radius: 10px;
 }
