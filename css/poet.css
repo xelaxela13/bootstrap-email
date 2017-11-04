@@ -530,7 +530,7 @@ h6,
 .h6,
 .text-chapter::first-letter,
 .text-chapter-cursive::first-letter {
-  font-weight: bold; }
+  font-weight: 600; }
 
 .font-san-serif, html,
 body,

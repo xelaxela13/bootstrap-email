@@ -1,10 +1,10 @@
 ---
 layout: docs
 title:  "Button"
-bs-compatable: true
-color-classes: true
+themeable: true
+responsive: false
 ---
-{% include post-header.html %}
+{% include doc-header.html %}
 
 Use a button on an anchor tag to link out of an email.
 

@@ -9,12 +9,12 @@ header{
   padding: 20px;
 }
 
-.bg-primary{
+.bg-primary-docs{
   background-color: #6f42c1 !important;
 }
 
 aside{
-    small{
+  small{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -114,6 +114,7 @@ footer{
 }
 
 .compatability-badge{
+  color: #333333;
   border: 1px solid #dae4e9;
   background-color: #fafcfc;
   padding: 0.25rem 0.5rem 0.25rem 0.25rem;
@@ -125,9 +126,8 @@ footer{
     background-color: #51d88a;
     border-radius: 9999px;
     margin-right: 0.25rem;
-    width: 17px;
-    height: 17px;
-    display: inline-block;
+    width: 16px;
+    height: 16px;
     img{
       color: white;
     }

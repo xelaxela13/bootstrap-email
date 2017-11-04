@@ -1,10 +1,10 @@
 ---
 layout: docs
 title:  "Badge"
-bs-compatable: true
-color-classes: true
+themeable: true
+responsive: false
 ---
-{% include post-header.html %}
+{% include doc-header.html %}
 
 Use a badge inline to show a count or give a status on something.
 

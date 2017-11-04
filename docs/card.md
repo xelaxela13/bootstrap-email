@@ -1,10 +1,10 @@
 ---
 layout: docs
 title:  "Card"
-bs-compatable: true
-color-classes: false
+themeable: false
+responsive: false
 ---
-{% include post-header.html %}
+{% include doc-header.html %}
 
 Use to wrap content in a nice solid, bordered container. Works well sitting onto of an email body with a <code>.bg-light</code> class.
 

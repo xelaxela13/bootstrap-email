@@ -1,61 +1,61 @@
 ---
 layout: docs
 title:  "Alert"
-bs-compatable: true
-color-classes: true
+themeable: true
+responsive: false
 ---
-{% include post-header.html %}
+{% include doc-header.html %}
 
 Alerts are good for bringing attention to something like an notice or some sort of warning.
 
 {% highlight html %}
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-primary">
   This is a primary alert—check it out!
 </div>
-<div class="alert alert-secondary" role="alert">
+<div class="alert alert-secondary">
   This is a secondary alert—check it out!
 </div>
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success">
   This is a success alert—check it out!
 </div>
-<div class="alert alert-danger" role="alert">
+<div class="alert alert-danger">
   This is a danger alert—check it out!
 </div>
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning">
   This is a warning alert—check it out!
 </div>
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info">
   This is a info alert—check it out!
 </div>
-<div class="alert alert-light" role="alert">
+<div class="alert alert-light">
   This is a light alert—check it out!
 </div>
-<div class="alert alert-dark" role="alert">
+<div class="alert alert-dark">
   This is a dark alert—check it out!
 </div>
 {% endhighlight %}
 
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-primary">
   This is a primary alert—check it out!
 </div>
-<div class="alert alert-secondary" role="alert">
+<div class="alert alert-secondary">
   This is a secondary alert—check it out!
 </div>
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success">
   This is a success alert—check it out!
 </div>
-<div class="alert alert-danger" role="alert">
+<div class="alert alert-danger">
   This is a danger alert—check it out!
 </div>
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning">
   This is a warning alert—check it out!
 </div>
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info">
   This is a info alert—check it out!
 </div>
-<div class="alert alert-light" role="alert">
+<div class="alert alert-light">
   This is a light alert—check it out!
 </div>
-<div class="alert alert-dark" role="alert">
+<div class="alert alert-dark">
   This is a dark alert—check it out!
 </div>
