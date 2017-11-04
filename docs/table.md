@@ -1,6 +1,6 @@
 ---
 layout: docs
-title:  "Spacing"
+title:  "Table"
 themeable: false
 responsive: false
 ---

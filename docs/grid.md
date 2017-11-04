@@ -6,14 +6,34 @@ responsive: true
 ---
 {% include doc-header.html %}
 
-Floating left or right wraps the content in a table that left or right aligns it.
+Grids work just like they do in Bootstrap, based on a 12 column grid. Make a row and give it columns. By default the grid holds it's structure on every device.
 
 {% highlight html %}
-<div class="float-left">Float left on all viewport sizes</div><br>
-<div class="float-right">Float right on all viewport sizes</div><br>
-<div class="float-none">Don't float on all viewport sizes</div>
+<div class="row">
+  <div class="col-3">.col-3</div>
+  <div class="col-4">.col-4</div>
+  <div class="col-5">.col-5</div>
+</div>
 {% endhighlight %}
 
-<div class="float-left">Float left on all viewport sizes</div><br>
-<div class="float-right">Float right on all viewport sizes</div><br>
-<div class="float-none">Don't float on all viewport sizes</div>
+<div class="row mb-4">
+  <div class="col-3 border">.col-3</div>
+  <div class="col-4 border">.col-4</div>
+  <div class="col-5 border">.col-5</div>
+</div>
+#### Responsive
+You can use the responsive <code>lg</code> modifier to make the grid snap back to vertical stacking on smaller devices.
+
+{% highlight html %}
+<div class="row">
+  <div class="col-lg-3">.col-3</div>
+  <div class="col-lg-4">.col-4</div>
+  <div class="col-lg-5">.col-5</div>
+</div>
+{% endhighlight %}
+
+<div class="row">
+  <div class="col-lg-3 border">.col-3</div>
+  <div class="col-lg-4 border">.col-4</div>
+  <div class="col-lg-5 border">.col-5</div>
+</div>

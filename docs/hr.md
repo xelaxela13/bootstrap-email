@@ -6,14 +6,9 @@ responsive: false
 ---
 {% include doc-header.html %}
 
-Floating left or right wraps the content in a table that left or right aligns it.
+Add a horizontal rule to separate content. A consistent one that works and looks good in all email clients.
 
 {% highlight html %}
-<div class="float-left">Float left on all viewport sizes</div><br>
-<div class="float-right">Float right on all viewport sizes</div><br>
-<div class="float-none">Don't float on all viewport sizes</div>
+<hr>
 {% endhighlight %}
-
-<div class="float-left">Float left on all viewport sizes</div><br>
-<div class="float-right">Float right on all viewport sizes</div><br>
-<div class="float-none">Don't float on all viewport sizes</div>
+<hr>
