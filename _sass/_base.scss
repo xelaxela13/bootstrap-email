@@ -1,0 +1,109 @@
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header{
+  color: white;
+  padding: 20px;
+}
+
+.bg-primary{
+  background-color: #6f42c1 !important;
+}
+
+aside{
+    small{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #b5b9bd;
+    margin-bottom: 0.25rem;
+    display: block;
+  }
+
+  ul{
+    padding-left: 0;
+    li{
+      list-style: none;
+      font-size: 1rem;
+      &:hover,
+      &.active{
+        background-color: white;
+        border-radius: 4px;
+        a{
+          color: black;
+          text-decoration: none;
+        }
+      }
+
+      a{
+        color: #868e96;
+        padding: 0.25rem 0.5rem;
+        display: block;
+      }
+    }
+  }
+
+}
+
+.card{
+  box-shadow: 2px 3px 0px #dadada;
+  border-color: #f1f1f1;
+}
+
+.device-container{
+  background: white;
+}
+
+.why-pressure-item{
+  width: 100%;
+  border: 1px solid #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.why-pressure-item img{
+  max-width: 100px;
+  padding-bottom: 1rem;
+}
+
+.doc-section{
+  border: 5px solid #f7f7f9;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.twitter-share-button{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.doc-top{
+  padding: 10px;
+}
+
+.doc-title{
+  font-weight: 600 !important;
+  margin-bottom: 0.6rem;
+}
+
+pre{
+  background: #f7f7f9 !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+.social-buttons{
+  display: table;
+  margin: 10px auto 20px auto;
+  position: relative;
+}
+
+footer{
+  padding: 20px 0;
+  border-top: 1px solid #f7f7f9;
+}
