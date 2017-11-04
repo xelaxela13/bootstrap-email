@@ -8,9 +8,9 @@ responsive: false
 
 Use a button on an anchor tag to link out of an email.
 
-**Note:** Only to be used with anchor <code>&lt;a&gt;</code> tag.
-
-<span class="text-danger">Warning:</span> you must supply a url in the href. Using just pound sign is not enough for some emails to render an anchor tag correctly.
+<div class="alert alert-info">
+  <strong>Note:</strong> Only to be used with anchor <code>&lt;a&gt;</code> tag.
+</div>
 
 {% highlight html %}
 <a href="https://bootstrapemail.com" class="btn btn-primary">Primary</a>
@@ -31,6 +31,10 @@ Use a button on an anchor tag to link out of an email.
 <a href="#" class="btn btn-info">Info</a>
 <a href="#" class="btn btn-light">Light</a>
 <a href="#" class="btn btn-dark">Dark</a>
+
+<div class="alert alert-warning">
+  <strong>Warning:</strong> You must supply a url in the href. Using just pound sign is not enough for some emails to render an anchor tag correctly.
+</div>
 
 ## Sizes
 {% highlight html %}

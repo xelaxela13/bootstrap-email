@@ -6,9 +6,7 @@ responsive: false
 ---
 {% include doc-header.html %}
 
-Use to wrap content in a nice solid, bordered container. Works well sitting onto of an email body with a <code>.bg-light</code> class.
-
-You can use a card with out without a <code>.card-body</code>. Just like in Bootstrap a <code>.card-body</code> is just used to give padding to the card.
+Since emails render mostly consistently with tables, many of the components are built into tables. These color classes apply to the current element as well as the child <code>&lg;td&gt;</code> so you can use it on a component it will still work if the component is compiled into a table.
 
 ## Text Color
 {% highlight html %}
