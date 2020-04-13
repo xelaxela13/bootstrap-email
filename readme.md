@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://bootstapemail.com">
-    <img src="https://bootstrapemail.com/img/icons/logo.png" alt="" width=72 height=72>
-  </a>
-
   <h3 align="center">Bootstrap Email</h3>
 
   <p align="center">
@@ -10,16 +5,9 @@
     <br>
     <a href="https://bootstrapemail.com/docs/introduction"><strong>Explore Bootstrap Email docs »</strong></a>
   </p>
-</p>
 
 <br>
 
-[![Gem](https://img.shields.io/gem/v/bootstrap-email.svg)](https://rubygems.org/gems/bootstrap-email)
-[![Gem](https://img.shields.io/gem/dt/bootstrap-email.svg)](https://rubygems.org/gems/bootstrap-email)
-
-The goal of this project is to build a library that matches the Bootstrap 4 API. It has two parts, the first being a compiler that takes in regular HTML with Bootstrap classes and compiles it into tables and layout that works in email. The second part produces inline CSS that works with those layouts and gives consistent performance and appearance across email clients.
-
-This project is still under development and I'm looking for contributors willing to help however they can. I'm excited about this <3
 
 ## Supported Bootstrap Classes
 <small>{color} in these examples is `primary`, `secondary`, `success`, `warning`, `danger`, `light`, and `dark`</small>
@@ -38,26 +26,3 @@ This project is still under development and I'm looking for contributors willing
 
 ## Additional Classes
 - [Visibility](https://bootstrapemail.com/docs/visibility): `.d-desktop`, `.d-mobile`
-
-## Email Quirk (for users)
-- width and height of images must be set to ensure proper rendering in outlook.
-- an anchor tag must have a link in the href (not just a #) for it to properly render a .btn.
-
-## Sass/SassC capability
-- Sass gem is deprecated (https://github.com/sass/ruby-sass) in favor of SassC
-- SassC (https://github.com/sass/sassc-ruby)
-
-Bootstrap-email works with both Sass/SassC gems.
-
-## Haml/Slim compatibility
-If you are using [Haml](http://haml.info/) or [Slim](http://slim-lang.com/) as your templating language for your Rails app, you can use it for your email templates as well! (it should probably work with any other Rails-compatible templating language out there as well)
-
-<!-- ## Email Quirks (internal notes)
-- Line height should always be in px never a number or percentage. https://www.marketingcloud.com/blog/design-tip-of-the-week-css-line-height-property-does-it-work-in-email/
-- Padding can only be used inside of a table cell.
-- Margin can only be used on divs.
-- Font family is reset at the top of every new table.
-- Responsive media query for stacking table cells with display block only works on Android in table header `<th>` cells and not table cells `<td>`.
-- To make a table width 100% BOTH the table and the td tags must be set to 100%
-- Many Outlook versions ignore css that has `important!`.
- -->
