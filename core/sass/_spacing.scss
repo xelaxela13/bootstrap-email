@@ -2,6 +2,7 @@
 @each $size, $percentage in $widths {
   .w-#{$size} {
     width: $percentage;
+
     & > tbody > tr > td {
       width: $percentage;
     }
@@ -11,6 +12,7 @@
 @each $size, $percentage in $widths {
   .w-lg-#{$size} {
     width: $percentage;
+
     & > tbody > tr > td {
       width: $percentage;
     }
@@ -19,63 +21,42 @@
 
 // Padding Helper
 @each $size, $length in $spacers {
+  .p-#{$size},
   .p-#{$size} {
+    padding: $length;
+
     & > tbody > tr > td {
       padding: $length;
     }
   }
   .pt-#{$size},
   .py-#{$size} {
+    padding-top: $length;
+
     & > tbody > tr > td {
       padding-top: $length;
     }
   }
   .pr-#{$size},
   .px-#{$size} {
+    padding-right: $length;
+
     & > tbody > tr > td {
       padding-right: $length;
     }
   }
   .pb-#{$size},
   .py-#{$size} {
+    padding-bottom: $length;
+
     & > tbody > tr > td {
       padding-bottom: $length;
     }
   }
   .pl-#{$size},
   .px-#{$size} {
-    & > tbody > tr > td {
-      padding-left: $length;
-    }
-  }
-}
+    padding-left: $length;
 
-@each $size, $length in $spacers {
-  .p-lg-#{$size} {
-    & > tbody > tr > td {
-      padding: $length;
-    }
-  }
-  .pt-lg-#{$size},
-  .py-lg-#{$size} {
-    & > tbody > tr > td {
-      padding-top: $length;
-    }
-  }
-  .pr-lg-#{$size},
-  .px-lg-#{$size} {
-    & > tbody > tr > td {
-      padding-right: $length;
-    }
-  }
-  .pb-lg-#{$size},
-  .py-lg-#{$size} {
-    & > tbody > tr > td {
-      padding-bottom: $length;
-    }
-  }
-  .pl-lg-#{$size},
-  .px-lg-#{$size} {
     & > tbody > tr > td {
       padding-left: $length;
     }
@@ -92,9 +73,89 @@
 }
 
 @each $size, $length in $spacers {
-  .s-lg-#{$size} > tbody > tr > td {
-    font-size: $length;
-    line-height: $length;
-    height: $length;
+  table.border-spacing-#{$size} {
+    border-spacing: $length;
+    border-collapse: unset;
+  }
+}
+
+.mx {
+  &-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.vertical{
+  &-align{
+    &-top{
+      vertical-align: top;
+      & > tbody > tr > td{
+        vertical-align: top;
+      }
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  @each $size, $length in $spacers {
+    .p-lg-#{$size} {
+      padding: $length;
+
+      & > tbody > tr > td {
+        padding: $length;
+      }
+    }
+    .pt-lg-#{$size},
+    .py-lg-#{$size} {
+      padding-top: $length;
+
+      & > tbody > tr > td {
+        padding-top: $length;
+      }
+    }
+    .pr-lg-#{$size},
+    .px-lg-#{$size} {
+      padding-right: $length;
+
+      & > tbody > tr > td {
+        padding-right: $length;
+      }
+    }
+    .pb-lg-#{$size},
+    .py-lg-#{$size} {
+      padding-bottom: $length;
+
+      & > tbody > tr > td {
+        padding-bottom: $length;
+      }
+    }
+    .pl-lg-#{$size},
+    .px-lg-#{$size} {
+      padding-left: $length;
+
+      & > tbody > tr > td {
+        padding-left: $length;
+      }
+    }
+  }
+  @each $size, $length in $spacers {
+    .s-lg-#{$size} > tbody > tr > td {
+      font-size: $length;
+      line-height: $length;
+      height: $length;
+    }
+  }
+  @each $size, $length in $spacers {
+    table.border-spacing-lg-#{$size} {
+      border-spacing: $length;
+      border-collapse: unset;
+    }
+  }
+  .mx {
+    &-lg {
+      &-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
   }
 }

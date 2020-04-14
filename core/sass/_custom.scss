@@ -1,0 +1,41 @@
+#continueButton{
+  .btn td a{
+    color: white;
+    min-width: 300px;
+  }
+}
+.bg-girl{
+  background-color: $blue;
+}
+.border{
+  &-bottom{
+    &-orange{
+      border-bottom: 2px solid rgba(255, 243, 222, 0.8);
+    }
+  }
+}
+#reason{
+  td{
+    vertical-align: top;
+  }
+  .arrow{
+    p{
+      color: $blue-ultra-light;
+      font-size: 5rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+    img{
+      transform: rotate(90deg);
+    }
+  }
+}
+@media screen and (min-width: 600px) {
+  .bg-girl {
+    background-image: url("https://cdn.onlinedivorce.com/static/multisite/img/multisite/onlinedivorce/redesign/online_divorce_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    background-color: $blue;
+  }
+}
