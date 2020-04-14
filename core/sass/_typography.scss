@@ -32,10 +32,13 @@ h1, h2, h3, h4, h5, h6,
   text-align: right !important;
 }
 
-.text-center {
+.text-center,
+.text-center > tbody > tr > td{
   text-align: center !important;
 }
-
+.text-line-through{
+  text-decoration: line-through;
+}
 p {
   margin-bottom: $paragraph-margin-bottom;
   width: 100%;

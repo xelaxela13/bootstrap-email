@@ -7,7 +7,7 @@
   border-radius: $btn-border-radius;
   text-align: center;
 }
-
+.btn,
 .btn td a {
   font-size: $btn-font-size;
   font-family: $btn-font-family;
@@ -25,6 +25,19 @@
   .btn-#{$color} td {
     background-color: $value;
   }
+  .btn-#{$color},
+  .btn-#{$color} td a {
+    background-color: $value;
+    @include color-yiq($value);
+    border-color: $value;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} td {
+    background-color: $value;
+  }
+  .btn-#{$color},
   .btn-#{$color} td a {
     background-color: $value;
     @include color-yiq($value);
