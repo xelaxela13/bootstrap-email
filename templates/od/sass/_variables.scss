@@ -1,0 +1,15 @@
+@use "sass:map";
+
+$blue:    #106CC8 !default;
+$blue-ultra-light: #E0EDF6 !default;
+$orange:  #FFAA00 !default;
+$yellow:  #FFFEF7 !default;
+
+@import "../../../core/sass/variables";
+$colors_new: (
+  blue-ultra-light: $blue-ultra-light,
+);
+
+$colors: (
+  map.merge($colors, $colors_new)
+)

@@ -370,17 +370,6 @@ p {
   border-color: #106CC8;
 }
 
-.btn-blue-ultra-light td {
-  background-color: #E0EDF6;
-}
-
-.btn-blue-ultra-light,
-.btn-blue-ultra-light td a {
-  background-color: #E0EDF6;
-  color: #111111;
-  border-color: #E0EDF6;
-}
-
 .btn-indigo td {
   background-color: #6610f2;
 }
@@ -511,6 +500,17 @@ p {
   background-color: #343a40;
   color: #ffffff;
   border-color: #343a40;
+}
+
+.btn-blue-ultra-light td {
+  background-color: #E0EDF6;
+}
+
+.btn-blue-ultra-light,
+.btn-blue-ultra-light td a {
+  background-color: #E0EDF6;
+  color: #111111;
+  border-color: #E0EDF6;
 }
 
 .btn-primary td {
@@ -1112,11 +1112,6 @@ p > tbody > tr > td > p {
   background-color: #106CC8 !important;
 }
 
-.bg-blue-ultra-light,
-.bg-blue-ultra-light > tbody > tr > td {
-  background-color: #E0EDF6 !important;
-}
-
 .bg-indigo,
 .bg-indigo > tbody > tr > td {
   background-color: #6610f2 !important;
@@ -1175,6 +1170,11 @@ p > tbody > tr > td > p {
 .bg-gray-dark,
 .bg-gray-dark > tbody > tr > td {
   background-color: #343a40 !important;
+}
+
+.bg-blue-ultra-light,
+.bg-blue-ultra-light > tbody > tr > td {
+  background-color: #E0EDF6 !important;
 }
 
 .bg-white,
