@@ -1,7 +1,18 @@
 .d-mobile {
-  display: none;
+  display: inline-block;
 }
 
 .d-desktop {
-  display: inline-block;
+  display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+  .d-mobile {
+    display: none;
+  }
+
+  .d-desktop {
+    display: inline-block;
+  }
 }
