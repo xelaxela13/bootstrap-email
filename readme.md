@@ -26,3 +26,11 @@
 
 ## Additional Classes
 - [Visibility](https://bootstrapemail.com/docs/visibility): `.d-desktop`, `.d-mobile`
+
+## Compiling and minifying
+npm install -g node-sass css-minify
+
+1. sass --help
+    
+    1.1 compile *.css file from terminal or using GULP, jetbraing file watcher etc...
+2. css-minify --file *.css
