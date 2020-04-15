@@ -711,7 +711,7 @@ p {
   display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   .d-mobile {
     display: none;
   }
@@ -801,7 +801,7 @@ th.col-12 {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   th.col-lg-1,
 th.col-lg-2,
 th.col-lg-3,
@@ -1655,7 +1655,7 @@ table.border-spacing-5 {
   vertical-align: top;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   .p-lg-0 {
     padding: 0;
   }
@@ -2134,7 +2134,7 @@ hr.custom {
   margin: 3rem auto;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   .bg-girl {
     background-image: url("https://cdn.onlinedivorce.com/static/multisite/img/multisite/onlinedivorce/redesign/online_divorce_background.jpg");
     background-repeat: no-repeat;

@@ -94,7 +94,7 @@ th.col-12 {
   width: 100%;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   th.col-lg-1,
   th.col-lg-2,
   th.col-lg-3,

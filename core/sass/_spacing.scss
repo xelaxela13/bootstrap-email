@@ -95,7 +95,7 @@
     }
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (min-device-width: 600px) {
   @each $size, $length in $spacers {
     .p-lg-#{$size} {
       padding: $length;

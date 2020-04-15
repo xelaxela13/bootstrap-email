@@ -34,3 +34,38 @@ npm install -g node-sass css-minify
     
     1.1 compile *.css file from terminal or using GULP, jetbraing file watcher etc...
 2. css-minify --file *.css
+
+## Media Query Support
+iOS (iPhone/iPad) 	`Yes`
+
+Android 4.x native client 	`Yes`
+
+Android Outlook Exchange via native client 	`No`
+
+Android Outlook.com app 	`No`
+
+Android Gmail app 	`No`
+
+Android Yahoo! Mail app 	`No`
+
+Android Samsung Mail app 	`Yes`
+
+Gmail (Android Browser) 	`No`
+
+Outlook.com (Android Browser) 	`No`
+
+Yahoo! Mail (Android Browser) 	`No`
+
+Windows Phone 7 	`No`
+
+Windows Phone 7.5 	`Yes`
+
+Windows Phone 8 	`No`
+
+BlackBerry OS 6 	`Yes`
+
+BlackBerry OS 7 	`Yes`
+
+BlackBerry Z10 	`Yes`
+
+Kindle Fire native client 	`Yes`
